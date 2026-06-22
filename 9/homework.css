@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #252b33;
+    
+    font-family: Arial,sans-serif;
+}
+.classes h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+.cards{
+    width: 90%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.card{
+    background: white;
+    text-align: center;
+}
+.card h2{
+    margin: 0;
+    background: red;
+    padding: 30px 10px;
+    color: white;
+    font-size: 28px;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card p{
+    padding: 25px 25px;
+    font-size:18px;
+    line-height: 1.5; 
+    font-style: italic;
+    color: #333;
+}
+.card a{
+    display: inline-block;
+    margin: 0 auto 35px;
+    color: #111;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 3px solid red;
+    padding: 5px;
+    
+}
+.card a:hover{
+    color: yellow;
+}
